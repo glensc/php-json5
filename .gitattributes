@@ -2,6 +2,7 @@
 # https://www.kernel.org/pub/software/scm/git/docs/gitattributes.html
 
 # Ignore all dot files, test and documentation with "export-ignore".
-/.*     export-ignore
-/test   export-ignore
-/docs   export-ignore
+/.*                 export-ignore
+/phpunit.xml.dist   export-ignore
+/test               export-ignore
+/docs               export-ignore
